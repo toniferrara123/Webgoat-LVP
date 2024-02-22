@@ -1,6 +1,16 @@
 {
   "settingsInheritedFrom": "tonifdemocorp1-Mend/whitesource-config@main"
-
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    },
+    "enableRenovate": false,
+    "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"]
+  },
+  "leastVulnerablePackageSettings": {
+    "enabled": true
+  }
+}
 }
 
 
